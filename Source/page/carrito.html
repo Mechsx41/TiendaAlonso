@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>WindOS</title>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="centered-container">
+            <header>
+                <nav class="navbar header">
+                    <a href="../../index.html">
+                        <img src="../img/icons8-jira.svg" class="logo" alt="logo" />
+                        <h3>WindOS</h3>
+                    </a>
+                    <div class="navbar-center">
+                        <div class="InputContainer">
+                            <input placeholder="Buscar producto.." id="input" class="input" name="text" type="text">
+                        </div>
+                    </div>
+                    <div class="navbar-right">
+                        <a href="carrito.html">
+                            <img src="../img/bolsa-de-regalo.png" />
+                            <span id="cart-count">0</span>
+                        </a>
+                    </div>
+                    <div class="background-image"></div>
+                </nav>
+            </header>
+            <main>
+                <section class="container">
+                    <h1>Bolsa de compras</h1>
+                    <section class="containerLayout">
+                        <div id="card-carrito" class="container_articule">
+                            <!-- Aquí se generarán las cartas dinámicamente -->
+                        </div>
+                        <div class="card-resume">
+                        </div>
+                    </section>
+                </section>
+                
+            </main>
+        </div>
+    </div>
+    <script src="../../Cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title":"Helado de cono",
+        "description":"Smartphone",
+        "price":"600",
+        "image":"https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$cono-combinado.png/200/200/original?country=ar",
+        "stock": 3
+    },
+    {
+        "id":2,
+        "title":"Sundae",
+        "description":"Smartphone",
+        "price":"1000",
+        "image":"https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$sundae-chocolate.png/200/200/original?country=ar",
+        "stock":5
+    },
+    {
+        "id":3,
+        "title":"McFlurry",
+        "description":"Smartphone",
+        "price":"1500",
+        "image":"https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$k7X0mKqj/200/200/original?country=ar",
+        "stock":8
+    }
+    ]

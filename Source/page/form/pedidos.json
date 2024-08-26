@@ -1,0 +1,47 @@
+[
+  {
+    "cliente": {
+      "nombre": "Javier",
+      "apellido": "Bermudez",
+      "telefono": "as"
+    },
+    "carrito": [
+      {
+        "id": 2,
+        "title": "Iphone 15",
+        "description": "Smartphone",
+        "price": "1500",
+        "image": "https://d28hi93gr697ol.cloudfront.net/9ef84dda-32dd-4016-7da3-1c0a824fffb4/img/Producto/2e40c331-8d55-1756-60c6-7181af752286/15-pro-max-6597661df28a3.png",
+        "stock": 5,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "cliente": {
+      "nombre": "as",
+      "apellido": "as",
+      "telefono": "as"
+    },
+    "carrito": [
+      {
+        "id": 1,
+        "title": "Samsung S24 Plus",
+        "description": "Smartphone",
+        "price": "600",
+        "image": "https://samsungar.vtexassets.com/arquivos/ids/193743/Samsung-143592091-ar-galaxy-s24-s928-sm-s928bztmaro-539291163--Download-Source-.png?v=638449301711430000",
+        "stock": 3,
+        "cantidad": 2
+      },
+      {
+        "id": 2,
+        "title": "Iphone 15",
+        "description": "Smartphone",
+        "price": "1500",
+        "image": "https://d28hi93gr697ol.cloudfront.net/9ef84dda-32dd-4016-7da3-1c0a824fffb4/img/Producto/2e40c331-8d55-1756-60c6-7181af752286/15-pro-max-6597661df28a3.png",
+        "stock": 5,
+        "cantidad": 2
+      }
+    ]
+  }
+]

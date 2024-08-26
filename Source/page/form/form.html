@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="centered-container">
+    <header>
+        <nav class="navbar header">
+                <a href="/index.html">
+                    <img src="/Source/img/icons8-jira.svg" class="logo" alt="logo" />
+                    <h3>WindOS</h3>
+                </a>
+                  <div class="navbar-center">
+                  </div>
+                  <div class="navbar-right">
+                    <a href="../page/carrito.html">
+                        <img src="/Source/img/shopping.svg" />
+                        <span id="cart-count">0</span>
+                    </a>
+                  </div>
+                <div class="background-image"></div>
+        </nav>
+    </header>
+        <main class="containerform"> 
+            <div class="container">
+              <div class="heading">Termina tu compra..</div>
+              <form class="form" id="pedidoForm">
+                <input
+                    placeholder="Nombre"
+                    id="name"
+                    name="name"
+                    type="text"
+                    class="inputform"
+                    required
+                />
+                <input
+                    placeholder="Apellido"
+                    id="lastName"
+                    name="lastName"
+                    type="text"
+                    class="inputform"
+                    required
+                />
+                <input
+                    placeholder="Número de teléfono"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    type="text"
+                    class="inputform"
+                    required
+                />
+                <input onclick="mostrarNotificacion()" id="finalizar-compra" value="Finalizar compra" type="submit" class="login-button" />
+            </form>
+        </main>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="form.js"></script>
+</body>
+</html>
